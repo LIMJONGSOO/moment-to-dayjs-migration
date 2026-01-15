@@ -1,4 +1,4 @@
-function myDayjs(date?: any, format?: string, locale?: any, strict?: boolean) {
+function wrapDayjs(date?: any, format?: string, locale?: any, strict?: boolean) {
   let obj;
   if(!date) {
     obj = dayjs();
